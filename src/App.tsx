@@ -1,12 +1,17 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  FlatList,
+  TouchableOpacity,
+  TextInput,
+} from 'react-native';
 import React from 'react';
-import ListCard from './components/ListCard
-
+import ListCard from './components/ListCard/ListCard';
 const App = () => {
   return (
     <View>
       <ListCard />
-      asdasdasdsad
     </View>
   );
 };
